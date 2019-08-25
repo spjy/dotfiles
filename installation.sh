@@ -8,7 +8,11 @@ sudo snap install tmux --classic
 sudo snap install kubectl --classic
 sudo snap install go --classic
 
-sudo apt-get install gnome-tweaks node yarn npm vim-gui-common vim-runtime
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+
+sudo apt-get install gnome-tweaks nodejs yarn vim-gui-common vim-runtime curl
 
 curl -L git.io/antigen > ~/antigen.zsh
 
