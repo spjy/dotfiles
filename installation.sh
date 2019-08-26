@@ -2,7 +2,7 @@
 
 sudo apt-get update
 
-sudo snap install discord docker insomnia
+sudo snap install discord docker insomnia flameshot-app
 sudo snap install code --classic
 sudo snap install tmux --classic
 sudo snap install kubectl --classic
@@ -16,9 +16,8 @@ sudo apt-get install gnome-tweaks nodejs yarn vim-gui-common vim-runtime zsh git
 
 curl -L git.io/antigen > ~/antigen.zsh
 
-# fonts wget https://github.com/GianCastle/FiraMonaco/raw/master/Ligamonacop.ttf
-# fonts wget https://github.com/AppleDesignResources/SanFranciscoFont/raw/master/SanFranciscoText-Regular.otf
+# fonts https://github.com/GianCastle/FiraMonaco/raw/master/Ligamonacop.ttf
+# fonts https://github.com/AppleDesignResources/SanFranciscoFont/raw/master/SanFranciscoText-Regular.otf
 # cursors https://www.gnome-look.org/p/1148692/
 # theme https://www.gnome-look.org/p/1275087/
 # icons https://www.gnome-look.org/p/1309810/
-
